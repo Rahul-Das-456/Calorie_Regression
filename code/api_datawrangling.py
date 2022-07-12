@@ -4,7 +4,7 @@ import pandas as pd
 pd.set_option('max_rows', 99999)
 pd.set_option('max_colwidth', 400)
 
-url = "https://api.edamam.com/api/nutrition-data?app_id=aba82731&app_key=793acdcce19384d28aa31dbd04ae2e42&nutrition-type=logging&ingr=Spicy%20Garlic-Chili%20Oil%20and%20Pasta"
+url = ""
 
 response = requests.get(url)
 
